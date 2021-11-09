@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<!--
+Created using JS Bin
+http://jsbin.com
+
+Copyright (c) 2021 by anonymous (http://jsbin.com/hiquzopani/3/edit)
+
+Released under the MIT license: http://jsbin.mit-license.org
+-->
+<meta name="robots" content="noindex">
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Вывод частоты встречаний профессий(без мусора)</title>
+</head>
+<body>
+  
+  <canvas id="income" width="800" height="800"></canvas>
+  
+
+  
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/1.0.2/Chart.min.js"></script>
+
+<script id="jsbin-javascript">
+
+
+var barData = {
+  labels : ['Desktop-разработчик', 'Mobile разработчик', 'WEB - Разработчик', 'Data Scientist', 'GameDev', 'ERP - программист, Программист 1С', 'Системный интегратор', '8 QA – инженер', 'Администратор баз данных', 'Системный программист', 'IoT-инженер', 'Системный администратор ИС (DevOps инженер)', 'UX/UI дизайнер', 'Менеджер IT-проекта', 'Аналитик', 'Специалист по интернет-маркетингу'],
+  datasets : [
+      {
+          fillColor : "#48A497",
+          strokeColor : "#48A4D1",
+          data : [2851, 6183, 2729, 3596, 8006, 5, 7, 984, 2221, 3845, 7486, 1716, 1757, 2189, 2342, 772]
+      },
+   
+  
+  ]
+  };
+  
+  var income = document.getElementById("income").getContext("2d");
+  new Chart(income).Bar(barData);
+</script>
+</body>
+</html>
