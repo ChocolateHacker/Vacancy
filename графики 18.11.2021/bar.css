@@ -1,0 +1,12 @@
+.container{
+    float:left;
+    margin-left:150px;
+}
+.container2{
+    float:right;
+    margin-right:150px;
+}
+
+div{
+    margin: 50px;
+}
