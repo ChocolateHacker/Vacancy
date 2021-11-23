@@ -1,12 +1,32 @@
+.grid_container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 5px;
+}
+
 .container{
-    float:left;
-    margin-left:150px;
+    justify-self: center;
 }
 .container2{
-    float:right;
-    margin-right:150px;
+    justify-self: center;
+}
+
+.containerWeb{
+    justify-self: center;
+}
+.containerEPR{
+    justify-self: center;
 }
 
 div{
     margin: 50px;
+}
+span{
+    color: darkblue;
+}
+
+p{
+    margin-left: 100px;
+    font-weight: bold;
+
 }
