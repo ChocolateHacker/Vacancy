@@ -10,7 +10,13 @@ for key in data.keys():
 
     counter = 0
     array_in_prof = data.get(key)
-    with open("profs_stats.csv", encoding='utf-8') as r_file:
+    # with open("profs_stats.csv", encoding='utf-8') as r_file:
+    #     file_reader = csv.reader(r_file, delimiter=",")
+    #     for row in file_reader:
+    #         for i in array_in_prof:
+    #             if i.lower() in row[3]:
+    #                 counter += int(row[0])
+    with open("filtredbaza.csv", encoding='utf-8') as r_file:
         file_reader = csv.reader(r_file, delimiter=",")
         for row in file_reader:
             for i in array_in_prof:
@@ -24,7 +30,6 @@ for key in data.keys():
                     counter += int(row[1])
 
     numberY.append(counter)
-    print(numberY)
 
 print(valueX)
 print(numberY)
