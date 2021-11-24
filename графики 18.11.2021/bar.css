@@ -7,16 +7,6 @@
 .container{
     justify-self: center;
 }
-.container2{
-    justify-self: center;
-}
-
-.containerWeb{
-    justify-self: center;
-}
-.containerEPR{
-    justify-self: center;
-}
 
 div{
     margin: 50px;
@@ -28,5 +18,4 @@ span{
 p{
     margin-left: 100px;
     font-weight: bold;
-
 }
