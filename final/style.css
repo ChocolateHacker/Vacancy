@@ -4,14 +4,9 @@ body {
 }
 
 .grid_container{
-    display: block;
+    display: grid;
     grid-template-columns: 1fr 1fr;
     column-gap: 5px;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    margin-right: -50%;
-    transform: translate(-50%, -50%);
 }
 
 .container{
