@@ -1,42 +1,4 @@
-var ctx0 = document.getElementById('myChart0').getContext('2d');
-var myChart0 = new Chart(ctx0, {
-    type: 'bar',
-    data: {
-        labels: ['Desktop-разработчик', 'Mobile разработчик', 'WEB - Разработчик', 'Data Scientist', 'GameDev', 'ERP - программист, Программист 1С', 'Системный интегратор', '8 QA – инженер', 'Администратор баз данных', 'Системный программист', 'IoT-инженер', 'Системный администратор ИС (DevOps инженер)', 'UX/UI дизайнер', 'Менеджер IT-проекта', 'Аналитик', 'Специалист по интернет-маркетингу'],
-        datasets: [{
-            label: 'value',
-            data: [2851, 6183, 2729, 3596, 8006, 5, 7, 984, 2221, 3845, 7486, 1716, 1757, 2189, 2342, 772],
-            backgroundColor:
-                'rgba(241, 58, 19, 0.7)',
-            borderColor:
-                'rgba(204, 6, 5, 1)',
-            borderWidth: 1,
-        }]
-    },
-    options: {
-        responsive: false,
-        legend: {
-            display: false
-        },
-        title: {
-            display: true,
-            text: 'WEB - Разработчик',
-            position: 'top',
-            fontSize: 16,
-            padding: 20
-        },
-        scales: {
-            yAxes: [{
-                ticks: {
-                    min: 0,
-                },
-            }]
-        }
-    }
-});
-
-
-var ctx = document.getElementById('myChart').getContext('2d');
+var ctx = document.getElementById('myChart0').getContext('2d');
 var myChart = new Chart(ctx, {
     type: 'bar',
     data: {
@@ -76,6 +38,44 @@ var myChart = new Chart(ctx, {
         }
     }
 });//Количество вакансий в группах
+
+var start = document.getElementById('myChart00').getContext('2d');
+var myChart00 = new Chart(start, {
+    type: 'bar',
+    data: {
+        labels: ['Mobile-разработчик 23522', 'Веб-разработчик 43104', 'PHP-программист 62641', 'Веб-мастер 4641', 'HTML-верстальщик 8809', 'Контент-менеджер 4900', 'Data Scientist 2861', 'GameDev 5949', 'Программист-разработчик 1С 78955', 'QA-инженер 31723', 'Администратор баз данных 4451', 'Системный программист 3068', 'Системный администратор 124845', 'DevOps 9240', 'UX/UI Designer 27162', 'Менеджер IT-проекта 57373', 'Аналитик 32231', 'Специалист по интернет-маркетингу 102968'],
+        datasets: [{
+            label: 'value',
+            data: [23522, 43104, 62641, 4641, 8809, 4900, 2861, 5949, 78955, 31723, 4451, 3068, 124845, 9240, 27162, 57373, 32231, 102968],
+            backgroundColor:
+                'rgba(241, 58, 19, 0.7)',
+            borderColor:
+                'rgba(204, 6, 5, 1)',
+            borderWidth: 1,
+        }]
+    },
+    options: {
+        responsive: false,
+        legend: {
+            display: false
+        },
+        title: {
+            display: true,
+            text: 'Финальный график. Количество вакансий в группах',
+            position: 'top',
+            fontSize: 16,
+            padding: 20
+        },
+        scales: {
+            yAxes: [{
+                ticks: {
+                    min: 0,
+                },
+            }]
+        }
+    }
+});
+
 
 
 var ctx2 = document.getElementById('myChart2').getContext('2d');
