@@ -7,7 +7,7 @@
 </head>
 <body>
 <div class="select_item">
-    <label for=""><strong>Выберите год:</strong></label>
+    <label ><strong>Выберите год:</strong></label>
     <select>
         <option value="1" selected></option>
         <option>2017</option>
@@ -16,38 +16,36 @@
         <option>2020</option>
         <option>2021</option>
     </select>
-    <label for=""><strong>ᅠ ᅠ ᅠᅠ ᅠ ᅠᅠ ᅠ </strong></label>
-    <label for=""><strong>Выберите профессию:</strong></label>
-    <select>
-        <option value="1" selected></option>
-        <option>Desktop-разработчик</option>
-        <option>Mobile разработчик</option>
-        <option>WEB - Разработчик</option>
-        <option>Data Scientist</option>
-        <option>GameDev</option>
-        <option>ERP - программист, Программист 1С</option>
-        <option>Системный интегратор</option>
-        <option>QA – инженер</option>
-        <option>Администратор баз данных</option>
-        <option>Системный программист</option>
-        <option>IoT-инженер</option>
-        <option>Системный администратор ИС (DevOps инженер)</option>
-        <option>UX/UI дизайнер</option>
-        <option>Менеджер IT-проекта</option>
-        <option>Аналитик</option>
-        <option>Специалист по интернет-маркетингу</option>
-        <option>Мусор</option>
+    <label><strong>ᅠ ᅠ ᅠᅠ ᅠ ᅠᅠ ᅠ </strong></label>
+    <label><strong>Выберите профессию:</strong></label>
+    <select id="select">
+        <option class="desktop" value="desktop">Desktop-разработчик</option>
+        <option class="mobile" value="mobile">Mobile разработчик</option>
+        <option class="web" value="web">WEB - Разработчик</option>
+        <option class="scientist"  value="scientist">Data Scientist</option>
+        <option class="gameDev" value="gameDev">GameDev</option>
+        <option class="erp1c"  value="erp1c">ERP - программист, Программист 1С</option>
+        <option class="sistemInt" value="sistemInt">Системный интегратор</option>
+        <option class="qa" value="qa">QA – инженер</option>
+        <option class="adminBD"  value="adminBD">Администратор баз данных</option>
+        <option class="sistemProg"  value="sistemProg">Системный программист</option>
+        <option class="iot" value="iot">IoT-инженер</option>
+        <option class="sistemIS"  value="sistemIS">Системный администратор ИС (DevOps инженер)</option>
+        <option class="designer"  value="designer">UX/UI дизайнер</option>
+        <option class="men" value="men">Менеджер IT-проекта</option>
+        <option class="analitic"  value="analitic">Аналитик</option>
+        <option class="internet-mark"  value="internet-mark">Специалист по интернет-маркетингу</option>
+        <option class="gub"  value="gub">Мусор</option>
+
     </select>
 </div>
 <div class="grid_container">
-    <div class="container">
-        <canvas id="myChart0" width="800" height="850"></canvas>
-    </div>
-    <div class="container">
-        <canvas id="myChart00" width="800" height="800"></canvas>
-    </div>
+        <canvas class="d" id="myChart0" width="800" height="850"></canvas>
+        <canvas class="d" id="myChart00" width="800" height="800"></canvas>
+        <canvas class="d" id="myChart2" width="800" height="800"></canvas>
 </div>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.8.0/Chart.bundle.min.js"></script>
 <script src="graf.js"></script>
+<script src="script.js"></script>
 </body>
 </html>
