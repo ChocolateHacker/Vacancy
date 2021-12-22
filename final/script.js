@@ -9,4 +9,3 @@ select.addEventListener('click', function() {
     lastIndex = index; // Обновить сохраненный индекс.
 });
 
-
