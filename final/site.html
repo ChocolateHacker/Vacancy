@@ -8,8 +8,9 @@
 <body>
 <div class="select_item">
     <label ><strong>Выберите год:</strong></label>
-    <select>
+    <select id="select">
         <option value="1" selected></option>
+        <option value="20172021">2017-2021</option>
         <option value="2017">2017</option>
         <option value="2018">2018</option>
         <option value="2019">2019</option>
@@ -18,16 +19,18 @@
     </select>
 </div>
 <div class="grid_container">
-        <canvas class="k" id="myChart0" width="800" height="850"></canvas>
-        <canvas class="d" id="gr20172021" width="800" height="800"></canvas>
-        <canvas class="d" id="myChart00" width="800" height="800"></canvas>
-        <canvas class="d" id="gr2020" width="800" height="800"></canvas>
-        <canvas class="d" id="gr2019" width="800" height="800"></canvas>
-        <canvas class="d" id="gr2018" width="800" height="800"></canvas>
-        <canvas class="d" id="gr2017" width="800" height="800"></canvas>
+        <canvas class="d" id="myChart0" width="800" height="800" style="display:block !important;"></canvas>
+        <canvas class="d" id="gr20172021" width="800" height="800" ></canvas>
+        <canvas class="d" id="myChart00" width="800" height="800" style="display:none"></canvas>
+        <canvas class="d" id="gr2020" width="800" height="800" style="display:none"></canvas>
+        <canvas class="d" id="gr2019" width="800" height="800" style="display:none"></canvas>
+        <canvas class="d" id="gr2018" width="800" height="800" style="display:none"></canvas>
+        <canvas class="d" id="gr2017" width="800" height="800" style="display:none"></canvas>
 </div>
+<script src="script.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.8.0/Chart.bundle.min.js"></script>
 <script src="graf.js"></script>
+
 
 </body>
 </html>
