@@ -4,9 +4,10 @@ body {
 }
 
 .grid_container{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    column-gap: 5px;
+    position: relative;
+    margin: auto;
+    height: 80vh;
+    width: 80vw;
 }
 
 .container {
