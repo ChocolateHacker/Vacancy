@@ -1,6 +1,32 @@
 var oilCanvas = document.getElementById("oilChart");
 Chart.defaults.global.defaultFontSize = 18;
-var oilData = {
+var pieChart = new Chart(oilCanvas, {
+    type: 'pie',
+    data: {
+        labels: [
+            "IT-вакансии(количество запросов)",
+            "Неопределенные",
+            "Не относящиеся к IT",
+        ],
+        datasets: [
+            {
+                data: [1239623, 2310393, 145891],
+                backgroundColor: [
+                    "#FF6384",
+                    "#8463FF",
+                    "#6384FF"
+                ]
+            }]
+    },
+    options:{
+        maintainAspectRatio: false,
+    }
+});//Общий график. Количество вакансий в группах
+
+
+var Chart2017 = document.getElementById("Chart2017");
+Chart.defaults.global.defaultFontSize = 18;
+var oilData1 = {
     labels: [
         "IT-вакансии(количество запросов)",
         "Неопределенные",
@@ -8,7 +34,7 @@ var oilData = {
     ],
     datasets: [
         {
-            data: [1239623, 2310393, 145891],
+            data: [ 136517, 26669, 14127],
             backgroundColor: [
                 "#FF6384",
                 "#8463FF",
@@ -16,8 +42,7 @@ var oilData = {
             ]
         }]
 };
-
-var pieChart = new Chart(oilCanvas, {
+var pieChart1 = new Chart(Chart2017, {
     type: 'pie',
     data: oilData,
     options:{
@@ -25,7 +50,108 @@ var pieChart = new Chart(oilCanvas, {
     }
 });
 
-//Общий график. Количество вакансий в группах
+var Chart2018 = document.getElementById("Chart2018");
+Chart.defaults.global.defaultFontSize = 18;
+var pieChart2 = new Chart(Chart2018, {
+    type: 'pie',
+    data:  {
+        labels: [
+            "IT-вакансии(количество запросов)",
+            "Неопределенные",
+            "Не относящиеся к IT",
+        ],
+        datasets: [
+            {
+                data: [  166765, 44505,  40659],
+                backgroundColor: [
+                    "#FF6384",
+                    "#8463FF",
+                    "#6384FF"
+                ]
+            }]
+    },
+    options:{
+        maintainAspectRatio: false,
+    }
+});
+
+
+var Chart2019 = document.getElementById("Chart2019");
+Chart.defaults.global.defaultFontSize = 18;
+var pieChart3 = new Chart(Chart2019, {
+    type: 'pie',
+    data:  {
+        labels: [
+            "IT-вакансии(количество запросов)",
+            "Неопределенные",
+            "Не относящиеся к IT",
+        ],
+        datasets: [
+            {
+                data: [ 168574, 35610,  17117],
+                backgroundColor: [
+                    "#FF6384",
+                    "#8463FF",
+                    "#6384FF"
+                ]
+            }]
+    },
+    options:{
+        maintainAspectRatio: false,
+    }
+});
+
+
+var Chart2020 = document.getElementById("Chart2020");
+Chart.defaults.global.defaultFontSize = 18;
+var pieChart4 = new Chart(Chart2020, {
+    type: 'pie',
+    data:  {
+        labels: [
+            "IT-вакансии(количество запросов)",
+            "Неопределенные",
+            "Не относящиеся к IT",
+        ],
+        datasets: [
+            {
+                data: [ 141677, 33501 ,  16320],
+                backgroundColor: [
+                    "#FF6384",
+                    "#8463FF",
+                    "#6384FF"
+                ]
+            }]
+    },
+    options:{
+        maintainAspectRatio: false,
+    }
+});
+
+
+var Chart2021 = document.getElementById("Chart2021");
+Chart.defaults.global.defaultFontSize = 18;
+var pieChart5 = new Chart(Chart2021, {
+    type: 'pie',
+    data:  {
+        labels: [
+            "IT-вакансии(количество запросов)",
+            "Неопределенные",
+            "Не относящиеся к IT",
+        ],
+        datasets: [
+            {
+                data: [ 60127, 17729 ,  5602],
+                backgroundColor: [
+                    "#FF6384",
+                    "#8463FF",
+                    "#6384FF"
+                ]
+            }]
+    },
+    options:{
+        maintainAspectRatio: false,
+    }
+});
 
 var start = document.getElementById('myChart00').getContext('2d');
 var myChart00 = new Chart(start, {
