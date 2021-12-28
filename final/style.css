@@ -18,7 +18,7 @@ span{
     color: darkblue;
 }
 
-label{
+label,option,select{
     font-size:25px;
 }
 
