@@ -161,7 +161,7 @@ var speedData = {
 var chartOptions = {
     legend: {
         display: true,
-        position: 'top',
+        position: 'right',
         labels: {
             boxWidth: 80,
             fontColor: 'black'
@@ -198,6 +198,9 @@ var pieChart = new Chart(oilCanvas, {
     },
     options:{
         maintainAspectRatio: false,
+        legend:{
+            position:'right'
+        }
     }
 });//Общий график. Количество вакансий в группах
 
@@ -224,6 +227,9 @@ var pieChart1 = new Chart(Chart2017, {
     },
     options:{
         maintainAspectRatio: false,
+        legend:{
+            position:'right'
+        }
     }
 });
 
@@ -249,6 +255,9 @@ var pieChart2 = new Chart(Chart2018, {
     },
     options:{
         maintainAspectRatio: false,
+        legend:{
+            position:'right'
+        }
     }
 });
 
@@ -275,6 +284,9 @@ var pieChart3 = new Chart(Chart2019, {
     },
     options:{
         maintainAspectRatio: false,
+        legend:{
+            position:'right'
+        }
     }
 });
 
@@ -301,6 +313,9 @@ var pieChart4 = new Chart(Chart2020, {
     },
     options:{
         maintainAspectRatio: false,
+        legend:{
+            position:'right'
+        }
     }
 });
 
@@ -327,6 +342,9 @@ var pieChart5 = new Chart(Chart2021, {
     },
     options:{
         maintainAspectRatio: false,
+        legend:{
+            position:'right'
+        }
     }
 });
 
