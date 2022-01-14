@@ -7,15 +7,15 @@ var dataFirst1 = {
     data: [19832, 24254, 23948, 19767, 7815],
     lineTension: 0,
     fill: false,
-    borderColor: 'rgb(0,255,255)'
+    borderColor: 'rgb(66,170,255)'
 };
 
 var dataFirst2 = {
-    label: "Менеджер (IT-проекта)",
-    data: [14233, 17222, 16752, 14902, 6545],
+    label: "Веб ",
+    data: [18279, 19372, 15463, 11066, 3713],
     lineTension: 0,
     fill: false,
-    borderColor: 'rgb(216,177,191)'
+    borderColor: 'rgb(16,71,199)'
 };
 
 var dataFirst3 = {
@@ -23,60 +23,89 @@ var dataFirst3 = {
     data: [15777, 19968, 20193, 15810, 6503],
     lineTension: 0,
     fill: false,
-    borderColor: 'rgb(203,40,33)'
+    borderColor: 'rgb(255,0,0)'
 };
+
 var dataFirst4 = {
+    label: "Менеджер (IT-проекта)",
+    data: [14233, 17222, 16752, 14902, 6545],
+    lineTension: 0,
+    fill: false,
+    borderColor: 'rgb(255,78,51)'
+};
+
+var dataFirst5 = {
     label: "Системный администратор",
     data: [13747, 17463, 18080, 14559, 6136],
     lineTension: 0,
     fill: false,
-    borderColor: 'rgb(29,172,214)'
+    borderColor: 'rgb(0,128,0)'
 };
-var dataFirst5 = {
-    label: "Специалист по интернет-маркетингу",
-    data: [5633, 13420, 15922, 16673, 14622],
-    lineTension: 0,
-    fill: false,
-    borderColor: 'red'
-};
+
 var dataFirst6 = {
     label: "Аналитик ",
     data: [7750, 9833, 11804, 11592, 5441],
     lineTension: 0,
     fill: false,
-    borderColor: 'rgb(245,64,33)'
+    borderColor: 'rgb(84,199,135)'
 };
 
 var dataFirst7 = {
-    label: "Веб ",
-    data: [18279, 19372, 15463, 11066, 3713],
-    lineTension: 0,
-    fill: false,
-    borderColor: 'rgb(255,248,22)'
-};
-
-var dataFirst8 = {
     label: "Специалист техподдержки",
     data: [5789, 7795, 8549, 6771, 3660],
     lineTension: 0,
     fill: false,
-    borderColor: 'rgb(238,147,116)'
+    borderColor: 'rgb(139,0,255)'
 };
+
+var dataFirst8 = {
+    label: "Специалист по интернет-маркетингу",
+    data: [5633, 13420, 15922, 16673, 14622],
+    lineTension: 0,
+    fill: false,
+    borderColor: 'rgb(288,74,60)'
+};
+
 var dataFirst9 = {
     label: "Системный инженер (+QA-инженер)",
     data: [5455, 6961, 7973, 7019, 2911],
     lineTension: 0,
     fill: false,
-    borderColor: 'rgb(119,221,119)'
+    borderColor: 'rgb(255,255,255)'
 };
 var dataFirst10 = {
     label: "Инженер ",
     data: [5085, 6331, 6842, 5711, 2260],
     lineTension: 0,
     fill: false,
-    borderColor: 'rgb(193,135,107)'
+    borderColor: 'rgb(0,0,0)'
 };
+
 var dataFirst11 = {
+    label: "Mobile - разработчик ",
+    data: [3549, 4349, 4931, 4533, 1976],
+    lineTension: 0,
+    fill: false,
+    borderColor: 'rgb(130,18,73)'
+};
+
+var dataFirst12 = {
+    label: "UX/UI дизайнер",
+    data: [3506, 3973, 3488, 2827, 1303],
+    lineTension: 0,
+    fill: false,
+    borderColor: 'rgb(204,6,5)'
+};
+
+var dataFirst13 = {
+    label: "Руководитель ",
+    data: [2435, 2870, 2919, 2529, 1127],
+    lineTension: 0,
+    fill: false,
+    borderColor: 'rgb(210,105,30)'
+};
+
+var dataFirst14 = {
     label: "Devops ",
     data: [1898, 3113, 4320, 4315, 2113],
     lineTension: 0,
@@ -84,44 +113,39 @@ var dataFirst11 = {
     borderColor: 'rgb(254,229,172)'
 };
 
-var dataFirst12 = {
-    label: "Mobile - разработчик ",
-    data: [3549, 4349, 4931, 4533, 1976],
+var dataFirst15 = {
+    label: "IT-специалист",
+    data: [1530, 2231, 2216, 1591, 604],
     lineTension: 0,
     fill: false,
-    borderColor: 'rgb(120,134,107)'
+    borderColor: 'rgb(0,128,128)'
 };
 
-var dataFirst13 = {
-    label: "UX/UI дизайнер",
-    data: [3506, 3973, 3488, 2827, 1303],
+var dataFirst16 = {
+    label: "Специалист по информационной безопасности",
+    data: [953, 1388, 1527, 1644, 661],
     lineTension: 0,
     fill: false,
-    borderColor: 'rgb(204,6,5)'
+    borderColor:'rgb(174,115,67)'
 };
-var dataFirst14 = {
-    label: "Руководитель ",
-    data: [2435, 2870, 2919, 2529, 1127],
-    lineTension: 0,
-    fill: false,
-    borderColor: 'rgb(210,105,30)'
-};
-var dataFirst15 = {
+
+var dataFirst17 = {
     label: "GameDev ",
     data: [917, 1256, 1532, 1573, 673],
     lineTension: 0,
     fill: false,
     borderColor: 'rgb(68,45,37)'
 };
-var dataFirst16 = {
-    label: "Специалист по информационной безопасности",
-    data: [953, 1388, 1527, 1644, 661],
+
+var dataFirst18 = {
+    label: "Администратор баз данных",
+    data: [482, 554, 627, 572, 229],
     lineTension: 0,
     fill: false,
-    borderColor:'rgb(18,53,36)'
+    borderColor: 'rgb(0,250,154)'
 };
 
-var dataFirst17 = {
+var dataFirst19 = {
     label: "Data Scientist",
     data: [422, 842, 1145, 1099, 641],
     lineTension: 0,
@@ -129,26 +153,12 @@ var dataFirst17 = {
     borderColor: 'rgb(137,129,118)'
 };
 
-var dataFirst18 = {
-    label: "IT-специалист",
-    data: [1530, 2231, 2216, 1591, 604],
-    lineTension: 0,
-    fill: false,
-    borderColor: 'rgb(0,128,128)'
-};
-var dataFirst19 = {
-    label: "Администратор баз данных",
-    data: [482, 554, 627, 572, 229],
-    lineTension: 0,
-    fill: false,
-    borderColor: 'rgb(0,250,154)'
-};
 var dataFirst20 = {
     label: "Системный программист ",
     data: [256, 317, 343, 377, 156],
     lineTension: 0,
     fill: false,
-    borderColor: 'rgb(255,77,0)'
+    borderColor: 'rgb(236,164,190)'
 };
 var speedData = {
     labels:
@@ -163,7 +173,7 @@ var chartOptions = {
         display: true,
         position: 'right',
         labels: {
-            boxWidth: 80,
+            boxWidth: 70,
             fontColor: 'black'
         }
     }
