@@ -169,6 +169,11 @@ var speedData = {
 };
 
 var chartOptions = {
+    title:{
+        display: true,
+        fontSize: 25,
+        text: "Динамика изменения количества вакансий по годам"
+    },
     legend: {
         display: true,
         position: 'right',
@@ -208,6 +213,11 @@ var pieChart = new Chart(oilCanvas, {
             }]
     },
     options:{
+        title:{
+            display: true,
+            fontSize: 20,
+            text: "Процентное соотношение вакансий в базе по годам"
+        },
         maintainAspectRatio: false,
         legend:{
             position:'right'
@@ -240,6 +250,11 @@ var pieChart1 = new Chart(Chart2017, {
         maintainAspectRatio: false,
         legend:{
             position:'right'
+        },
+        title:{
+            display: true,
+            fontSize: 25,
+            text: "Процентное соотношение обработанных вакансий за 2017 год"
         }
     }
 });
@@ -266,6 +281,11 @@ var pieChart2 = new Chart(Chart2018, {
     },
     options:{
         maintainAspectRatio: false,
+        title:{
+            display: true,
+            fontSize: 25,
+            text: "Процентное соотношение обработанных вакансий за 2018 год"
+        },
         legend:{
             position:'right'
         }
@@ -295,6 +315,11 @@ var pieChart3 = new Chart(Chart2019, {
     },
     options:{
         maintainAspectRatio: false,
+        title:{
+            display: true,
+            fontSize: 25,
+            text: "Процентное соотношение обработанных вакансий за 2019 год"
+        },
         legend:{
             position:'right'
         }
@@ -324,6 +349,11 @@ var pieChart4 = new Chart(Chart2020, {
     },
     options:{
         maintainAspectRatio: false,
+        title:{
+            display: true,
+            fontSize: 25,
+            text: "Процентное соотношение обработанных вакансий за 2020 год"
+        },
         legend:{
             position:'right'
         }
@@ -353,6 +383,11 @@ var pieChart5 = new Chart(Chart2021, {
     },
     options:{
         maintainAspectRatio: false,
+        title:{
+            display: true,
+            fontSize: 25,
+            text: "Процентное соотношение обработанных вакансий за 2021 год"
+        },
         legend:{
             position:'right'
         }
