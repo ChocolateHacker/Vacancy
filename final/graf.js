@@ -173,6 +173,7 @@ var chartOptions = {
         display: true,
         position: 'right',
         labels: {
+            padding: 40,
             boxWidth: 70,
             fontColor: 'black'
         }
