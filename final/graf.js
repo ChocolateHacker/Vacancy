@@ -204,11 +204,11 @@ var pieChart = new Chart(oilCanvas, {
         ],
         datasets: [
             {
-                data: [1239623, 296075, 145891],
+                data: [73.2, 17.7, 9.1],
                 backgroundColor: [
                     "#FF6384",
                     "#8463FF",
-                    "#6384FF"
+                    "#48db92"
                 ]
             }]
     },
@@ -216,11 +216,19 @@ var pieChart = new Chart(oilCanvas, {
         title:{
             display: true,
             fontSize: 20,
-            text: "Процентное соотношение вакансий в базе по годам"
+            text: "Общее процентное соотношение вакансий в базе"
         },
         maintainAspectRatio: false,
         legend:{
             position:'right'
+        },
+        responsive: true,
+        tooltips: {
+            callbacks: {
+                label: function(tooltipItem, data) {
+                    return data['labels'][tooltipItem['index']] + ': ' + data['datasets'][0]['data'][tooltipItem['index']] + '%';
+                }
+            }
         }
     }
 });//Общий график. Количество вакансий в группах
@@ -242,7 +250,7 @@ var pieChart1 = new Chart(Chart2017, {
                 backgroundColor: [
                     "#FF6384",
                     "#8463FF",
-                    "#6384FF"
+                    "#48db92"
                 ]
             }]
     },
@@ -275,7 +283,7 @@ var pieChart2 = new Chart(Chart2018, {
                 backgroundColor: [
                     "#FF6384",
                     "#8463FF",
-                    "#6384FF"
+                    "#48db92"
                 ]
             }]
     },
@@ -309,7 +317,7 @@ var pieChart3 = new Chart(Chart2019, {
                 backgroundColor: [
                     "#FF6384",
                     "#8463FF",
-                    "#6384FF"
+                    "#48db92"
                 ]
             }]
     },
@@ -343,7 +351,7 @@ var pieChart4 = new Chart(Chart2020, {
                 backgroundColor: [
                     "#FF6384",
                     "#8463FF",
-                    "#6384FF"
+                    "#48db92"
                 ]
             }]
     },
@@ -377,7 +385,7 @@ var pieChart5 = new Chart(Chart2021, {
                 backgroundColor: [
                     "#FF6384",
                     "#8463FF",
-                    "#6384FF"
+                    "#48db92"
                 ]
             }]
     },
